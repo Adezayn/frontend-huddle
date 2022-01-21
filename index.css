@@ -254,6 +254,9 @@ input {
   border: 1px solid transparent;
   height: 6rem;
 }
+.form-box {
+  width: 100%;
+}
 form .input-btn {
   width: 50%;
   border-radius: 5px;
@@ -273,6 +276,7 @@ form .input-btn {
 }
 
 .footer__huddle-box-img {
+  width: 20rem;
   margin-bottom: 3rem;
 }
 
@@ -314,7 +318,13 @@ form .input-btn {
 .fa-instagram {
   font-size: 3.2rem;
 }
-
+/* DOM Manipulation*/
+.form-box-span {
+  font-size: 1.2rem;
+}
+.alert {
+  color: rgb(241, 11, 11);
+}
 .attribution {
   font-size: 11px;
   text-align: end;
@@ -322,7 +332,11 @@ form .input-btn {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+@media (max-width: 290px) {
+  html {
+    font-size: 40%;
+  }
+}
 @media (min-width: 768px) {
   html {
     font-size: 62.5%;
@@ -360,7 +374,7 @@ form .input-btn {
   .blue-curls-section::before {
     content: "";
     background: url(images/bg-section-top-desktop-1.svg) top no-repeat;
-    height: 16.5rem;
+    height: 17.5rem;
     background-size: 100% 100%;
   }
   .blue-curls-section::after {
@@ -373,7 +387,7 @@ form .input-btn {
     content: "";
     background: url(images/bg-section-top-desktop-2.svg) top no-repeat;
     background-size: 100% 100%;
-    height: 15.6rem;
+    height: 16.6rem;
   }
   .blue-section::after {
     content: "";
@@ -387,7 +401,7 @@ form .input-btn {
   .footer-section::before {
     content: "";
     background: url(images/bg-footer-top-desktop.svg) top no-repeat;
-    height: 15.8rem;
+    height: 16.8rem;
     background-size: 100% 100%;
   }
   .huddle__box,
@@ -399,5 +413,11 @@ form .input-btn {
   }
   input {
     height: 4rem;
+  }
+  .form-box {
+    flex: 70%;
+  }
+  .input-btn {
+    flex: 30%;
   }
 }
