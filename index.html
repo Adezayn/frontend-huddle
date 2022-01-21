@@ -7,6 +7,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
     <link
       rel="icon"
       type="image/png"
@@ -51,8 +53,7 @@
       </section>
     </div>
 
-    <div class="blue-section section">
-      <img src="images/bg-section-top-desktop-1.svg" />
+    <div class="blue-curls-section section">
       <div class="blue-container container">
         <div class="grow-box">
           <img
@@ -69,7 +70,6 @@
           </div>
         </div>
       </div>
-      <img src="images/bg-section-bottom-desktop-1.svg" />
     </div>
 
     <div class="container">
@@ -90,7 +90,6 @@
     </div>
 
     <div class="blue-section section">
-      <img src="images/bg-section-top-desktop-2.svg" />
       <div class="blue-container container">
         <div class="users-box">
           <img src="images/illustration-your-users.svg" alt="users" />
@@ -104,7 +103,6 @@
           </div>
         </div>
       </div>
-      <img src="images/bg-section-bottom-desktop-2.svg" />
     </div>
 
     <div class="container">
@@ -115,28 +113,32 @@
     </div>
 
     <footer class="footer-section section">
-      <img src="images/bg-footer-top-desktop.svg" />
       <div class="footer-container container">
         <div class="footer__info-box">
           <div class="footer__newsletter-box">
             <h4>Newsletter</h4>
             <p>
               To recieve tips on how to grow your community, sign up to our
-              weekly newsletter. We’ll never send you spam or pass on your email
+              weekly newsletter. We&#39;ll never send you spam or pass on your email
               address
             </p>
             <form>
-              <input type="email" class="input-email" />
+              <input type="email" class="input-email" required/>
               <input
                 type="button"
                 value="Subscribe"
-                class="btn-big input-btn"
+                class="input-btn"
               />
             </form>
           </div>
 
           <div class="footer__huddle-box">
-            <img src="images/logo.svg" alt="huddle logo" />
+            <div class="huddle__box">
+            <img
+              src="images/logo-2.svg"
+              alt="huddle logo"
+              class="footer__huddle-box-img"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
@@ -150,18 +152,19 @@
               <p>example@huddle.com</p>
             </div>
             <ul class="social-icons">
-              <li></li>
-              <li></li>
-              <li></li>
+              <li><a><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+              <li><a><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a><i class="fab fa-twitter" aria-hidden="true"></a></i></li>
             </ul>
           </div>
+        </div>
         </div>
 
         <p class="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
-          >. Coded by <a href="#">Your Name Here</a>.
+          >. Coded by <a href="#">Dolapo</a>.
         </p>
       </div>
     </footer>
