@@ -13,6 +13,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   color: hsl(192, 100%, 9%);
+  line-height: 1.7;
 }
 h1,
 h2,
@@ -33,7 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20vh;
+  height: 18vh;
 }
 header img {
   width: 25rem;
@@ -70,13 +71,14 @@ header img {
   margin: auto;
 }
 .btn-big {
-  padding: 2.2rem 7rem;
+  padding: 2rem 7.5rem;
   border: 1px solid transparent;
   border-radius: 35px;
   text-align: center;
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
   margin-top: 4rem;
   line-height: 1.7;
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
@@ -192,7 +194,7 @@ header img {
 /*CONTAINER-READY*/
 .container__ready-box,
 .conversation-box {
-  padding: 10rem 0;
+  padding: 15rem 0;
 }
 .container__ready-box h4 {
   font-size: 2.5rem;
